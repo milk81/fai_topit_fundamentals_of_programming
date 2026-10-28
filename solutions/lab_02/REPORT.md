@@ -267,7 +267,6 @@ import weakref
 class Record:
     pass
 
-
 registry = weakref.WeakValueDictionary()
 
 first = Record()
@@ -361,6 +360,7 @@ print(f'Сравнение до и после {collected_after - collected_befor
 **Схема**
 ```text
 Dict_A -> list_A -> Dict_B -> list_B -> Dict_C -> list_C -> Dict_A
+Dict_D -> list_D
 ```
 
 
